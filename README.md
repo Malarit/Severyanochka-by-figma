@@ -1,1 +1,1 @@
-# Severyanochka-by-figma-
+# Severyanochka-by-figma
