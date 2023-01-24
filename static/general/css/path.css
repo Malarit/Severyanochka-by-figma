@@ -1,0 +1,17 @@
+/*----Path-----------------------------------------------------*/
+.main__path {
+    padding: 24px 20px;
+  }
+  
+  .some-path {
+    display: flex;
+  }
+  .some-path div:not(:last-of-type) {
+    margin-right: 16px;
+  }
+  .some-path div:last-of-type {
+    color: #8F8F8F;
+  }
+  .some-path img {
+    margin-right: 16px;
+  }

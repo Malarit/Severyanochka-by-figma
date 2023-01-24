@@ -1,0 +1,29 @@
+$max_w_tablet: 1180px;
+$max_w_phone: 630px;
+
+.main {
+    
+    &__path {
+        padding: 24px 20px;
+        font-size: 12px;
+        @media (max-width: $max_w_tablet){
+            font-size: 12px;
+        }
+        @media (max-width: $max_w_phone){
+            font-size: 8px;
+        }
+    }
+}
+
+.some-path {
+    display: flex;
+    & div:not(:last-of-type) {
+        margin-right: 16px;
+    }
+    & div:last-of-type {
+        color: #8F8F8F;
+    }
+    & img {
+        margin-right: 16px;
+    }
+}

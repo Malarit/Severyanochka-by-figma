@@ -1,0 +1,34 @@
+.main__path {
+  padding: 24px 20px;
+  font-size: 12px;
+}
+@media (max-width: 1180px) {
+  .main__path {
+    font-size: 12px;
+  }
+}
+@media (max-width: 630px) {
+  .main__path {
+    font-size: 8px;
+  }
+}
+
+.some-path {
+  display: flex;
+}
+.some-path div:not(:last-of-type) {
+  margin-right: 16px;
+}
+.some-path div:last-of-type {
+  color: #8F8F8F;
+}
+.some-path img {
+  margin-right: 16px;
+}
+@media (max-width: 630px) {
+  .some-path {
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=path.css.map */
